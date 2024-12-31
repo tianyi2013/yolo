@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "yolo_project"
+version = "0.1.0"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "fpdf",
+    "Pillow"
+]
